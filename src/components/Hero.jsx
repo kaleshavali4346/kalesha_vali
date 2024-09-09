@@ -1,5 +1,5 @@
 import  {HERO_CONTENT} from "../constants";
-import profilepic from "../assets/kevinRushProfile.png";
+import profilepic from "../assets/profile.jpg";
 import {motion} from "framer-motion";
 
 const container = (delay)=>({
@@ -53,6 +53,7 @@ const Hero = ()=>{
               initial={{x:100, opacity:0}}
               animate={{x:0,opacity:1}}
               transition={{duration:1,delay:1.2}}
+              className="rounded-2xl"
               src={profilepic} alt="Kalesha Vali" />
             </div>
           </div>
